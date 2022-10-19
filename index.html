@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>QPICK</title>
+</head>
+<body class="body">
+    <header class="header">
+        <div class="container header-container">
+            <h1 class="logo">QPICK</h1>
+            <div class="nav-icon-container">
+                <div class="favorites"></div>
+                <div class="cart"></div>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container main-container">
+            <section class="headphones">
+                <h2 class="section-title">Наушники</h2>
+                <div class="products" id="products-headphones">
+                </div>
+            </section>
+            <section class="wireless-headphones">
+                <h2 class="section-title">Беспроводные наушники</h2>
+                <div class="products" id="products-wireless">
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-block">
+                <span class="logo footer-logo">QPICK</span>
+            </div>
+            <div class="footer-block">
+                <div class="footer-menu">
+                    <a class="footer-link">Избранное</a>
+                    <a class="footer-link">Корзина</a>
+                    <a class="footer-link">Контакты</a>
+                </div>
+            </div>
+            <div class="footer-block">
+                <div class="footer-menu">
+                    <a class="footer-link">Условия сервиса</a>
+                    <div class="language-container">
+                        <div class="language-icon"></div>
+                        <a href="#" class="language ru">Рус</a>
+                        <a href="#" class="language en">Eng</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-block">
+                <div class="footer-icons">
+                    <div class="vk-icon"></div>
+                    <div class="tg-icon"></div>
+                    <div class="whatsapp-icon"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="localStorageUtil.js"></script>
+    <script src="catalog.js"></script>
+    <script src="products.js"></script>
+</body>
+</html>
