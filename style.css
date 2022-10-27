@@ -43,13 +43,13 @@ body {
     display: flex;
 }
 
-.favorites {
+.favorites-icon {
     background-image: url("./assets/svg/favorites.svg");
     width: 23px;
     height: 20px;
 }
 
-.cart {
+.cart-icon {
     background-image: url("./assets/svg/cart.svg");
     width: 24px;
     height: 24px;

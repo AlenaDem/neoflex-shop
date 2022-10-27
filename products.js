@@ -38,7 +38,6 @@ class Products {
                     <img src="${img}" alt="Picture" class="product-pic">
                 </div>
                 <div class="product-info">
-
                     <div class="product-info-col-name">
                         <span class="product-name">${title}</span>
                         <div class="product-rate">
@@ -61,3 +60,5 @@ class Products {
 
 const productsPage = new Products();
 productsPage.render();
+
+
