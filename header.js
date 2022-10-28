@@ -5,7 +5,7 @@ header.innerHTML = `
     <h1 class="logo">QPICK</h1>
     <div class="nav-icon-container">
         <div class="favorites-icon"></div>
-        <a href="/cart.html">
+        <a href="cart.html">
             <div class="cart-icon"></div>
         </a>
     </div>
