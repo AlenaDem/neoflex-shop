@@ -6,7 +6,7 @@ class Products {
     
         headphones.forEach(({id, img, title, price, rate}) => {
             catalogHeadphones += `
-            <div class="product-container">
+            <div class="product-container main-product-container">
                 <div class="product-pic-container">
                     <img src="${img}" alt="Picture" class="product-pic">
                 </div>
@@ -33,7 +33,7 @@ class Products {
         let catalogWireless = '';
         wireless.forEach(({id, img, title, price, rate}) => {
             catalogWireless += `
-            <div class="product-container">
+            <div class="product-container main-product-container">
                 <div class="product-pic-container">
                     <img src="${img}" alt="Picture" class="product-pic">
                 </div>
